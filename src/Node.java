@@ -5,6 +5,7 @@
 
 package src;
 
+//Esta clase es la estructura basica de nuestra lista enlazada.
 //Con esta clase lo que vamos a hacer es almacenar el valor en un nodo,
 //y el siguiente lo iniciamos como nulo para poder almacenarle valor
 //data va a contener el valor numerico del nodo

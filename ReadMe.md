@@ -13,13 +13,12 @@ Para ejecutar este proyecto, sigue los siguientes pasos:
 
 2. Clona este repositorio en tu máquina local utilizando Git:
    ```bash
-   git clone https://github.com/tuusuario/proyecto-dpi.git
-   ```
+   git clone https://github.com/primoquan/Estructura_Parcial2
 
 3. Navega a la carpeta del proyecto y compílalo usando el siguiente comando:
    ```bash
-   cd proyecto-dpi
-   javac -d . src/Main.java src/LinkedList.java src/Node.java
+   cd Estructura_Parcial2
+   javac -d . Main.java src/LinkedList.java src/Node.java
    ```
 
 4. Para ejecutar el programa, usa el siguiente comando:

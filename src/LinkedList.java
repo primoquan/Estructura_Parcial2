@@ -35,7 +35,7 @@ public class LinkedList {
     }
 
 
-    //Insertamos un nodo en una posicion especifica de la lista, esta se la decimos donde queremos agregar
+    //Insertamos un nodo en una posicion especifica de la lista, esta se la decimos donde queremos agregar, ejemplo si le ponemos 0 lo agrega al principo de la lista
 
     public void agregarEnMedio(int dato, int posicion) {
         if (posicion <= 0) {
@@ -60,7 +60,7 @@ public class LinkedList {
         }
     }
 
-    // Con este vamos a eliminar un nodo en una posicion especifica
+    // Con este vamos a eliminar un nodo en una posicion especifica, a este le decimos que posicion queremos eliminar
 
 
     public void eliminarEn(int indice) {
@@ -99,7 +99,7 @@ public class LinkedList {
 
 
 
-    //Este nos imprime la lista para poderla ver, siempre que  lo llamemos imprime la lista como este en ese momento
+    //Este nos imprime la lista seprando cada nodo con una flecha , siempre que lo llamemos imprime la lista como este en ese momento
 
     public void imprimirLista() {
         Node actual = primero;
@@ -115,6 +115,7 @@ public class LinkedList {
 
 
     //Este nos invierte el orden de la lista empezando por el ultimo y terminando con el primero
+    //Utiliza tres referencias: una para el nodo anterior, una para el nodo actual y una para el siguiente nodo.
 
     public void revertir() {
         Node anterior = null;
