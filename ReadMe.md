@@ -18,7 +18,7 @@ Para ejecutar este proyecto, sigue los siguientes pasos:
 3. Navega a la carpeta del proyecto y compílalo usando el siguiente comando:
    ```bash
    cd Estructura_Parcial2
-   javac -d . Main.java src/LinkedList.java src/Node.java
+    javac -d bin -sourcepath src src/Node.java src/LinkedList.java Main.java
    ```
 
 4. Para ejecutar el programa, usa el siguiente comando:
